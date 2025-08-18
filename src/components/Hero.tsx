@@ -37,11 +37,12 @@ export const Hero = () => {
 
             {/* CTA Buttons */}
             <div className="flex flex-col sm:flex-row gap-4">
+              
               <Button variant="hero" size="lg" className="text-lg px-8 py-3">
-                Start Learning Today
+                <a href="/signin">Start Learning Today</a>
               </Button>
               <Button variant="outline" size="lg" className="text-lg px-8 py-3">
-                Browse Courses
+                 <a href="/signin">Browse Courses</a>
               </Button>
             </div>
 

@@ -104,7 +104,7 @@ export const CourseCard = ({
         <div className="flex items-center space-x-2">
           {isFree ? (
             <span className="text-2xl font-bold text-green-600">Free</span>
-          ) : (
+          ) : ( 
             <>
               <span className="text-2xl font-bold text-foreground">₹{price}</span>
               {originalPrice && (
@@ -119,9 +119,12 @@ export const CourseCard = ({
           )}
         </div>
         
-        <Link to={`/course/${id}`}>
+        <Link to={`/signin`}>
           <Button variant="cta" size="sm">
+            <a href="/signin">
             {isFree ? 'Enroll Free' : 'Enroll Now'}
+            </a>
+            
           </Button>
         </Link>
       </CardFooter>
