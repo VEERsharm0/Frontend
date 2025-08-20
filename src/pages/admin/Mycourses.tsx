@@ -159,7 +159,7 @@ const Mycourses = () => {
           </p>
         </div>
         <Button 
-          onClick={() => navigate('/addcourses')}
+          onClick={() => navigate('/admin/addcourses')}
           className="bg-primary hover:bg-primary-hover"
         >
           <Plus className="h-4 w-4 mr-2" />
